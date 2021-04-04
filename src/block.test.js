@@ -30,5 +30,11 @@ describe('Block', () => {
         expect(block.previousHash).toEqual(previousBlock.hash);
         expect(data).toEqual(data);
     });
+
+    it('use static hash()',() => {
+        hash = Block.hash(timestamp, previousBlock.hash, data);
+        const hasOutput = 'I dont know';
+        expect(hash).toEqual(hashOutput);
+    });
     
 });
