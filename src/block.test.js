@@ -36,5 +36,11 @@ describe('Block', () => {
         const hashOutput = '0446c8995cc2f52476b2d77413d5df4b115f356b14c6f92b62d48b38dd01b8ec';
         expect(hash).toEqual(hashOutput);
     });
+
+    it('use toString()', () => {
+        const block = Block.mine(previousBlock, data); 
+        
+        expect(typeof block.toString()).toEqual('string');
+    });
     
 });
