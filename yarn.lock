@@ -1192,6 +1192,11 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
+crypto.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/crypto.js/-/crypto.js-2.0.2.tgz#6cc9c1703e7145f4456d2ac9ccf495895438b0c4"
+  integrity sha512-FKJP/s3KmqS8ThuInxpIGwuL8Wcfeg/0A5Nscko71zwDL+a/X7Y2HDQPtu7kTuDVAV/3ofxIEVdnNxqfks4zUw==
+
 debug@^2.2.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
